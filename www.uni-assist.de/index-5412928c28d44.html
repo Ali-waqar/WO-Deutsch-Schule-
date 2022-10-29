@@ -1,0 +1,5 @@
+$(document).ready( function() { jQuery("#ke_search_sword").autocomplete({ source: function( request, response ) { jQuery.ajax({ url: "/?eID=keSearchPremiumAutoComplete", dataType: "json", cache: false, data: { wordStartsWith: request.term, amount: 10,
+pid: 2 }, success: function( data ) { if(data) { response( jQuery.map( data, function( item ) { return { label:item, value:item } })) } else response( {} ) } }) }, select: function( event, ui ) { jQuery( "#ke_search_sword" ).val( ui.item.value ); jQuery(
+"form#form_kesearch_pi1" ).submit(); }, minLength: 3 }); jQuery("#ke_search_searchfield_sword").autocomplete({ source: function( request, response ) { jQuery.ajax({ url: "/?eID=keSearchPremiumAutoComplete", dataType: "json", cache: false, data: { wordStartsWith:
+request.term, amount: 10, pid: 2 }, success: function( data ) { if(data) { response( jQuery.map( data, function( item ) { return { label:item, value:item } })) } else response( {} ) } }) }, select: function( event, ui ) { jQuery( "#ke_search_searchfield_sword"
+).val( ui.item.value ); jQuery( "form#form_kesearch_searchfield" ).submit(); }, minLength: 3 }); });

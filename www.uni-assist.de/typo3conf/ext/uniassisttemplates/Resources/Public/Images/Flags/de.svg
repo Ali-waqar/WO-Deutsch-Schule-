@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16.99 16.99">
+  <defs>
+    <style>
+
+      .cls-4 {
+        fill: #010101;
+      }
+
+      .cls-5 {
+        fill: #dc0c15;
+      }
+
+      .cls-6 {
+        fill: #fece1b;
+      }
+
+
+    </style>
+  </defs>
+  <title>Flaggen-Ebenen</title>
+  <g id="Deutschland">
+    <g id="_Gruppe_15" data-name="&lt;Gruppe&gt;">
+      <g id="_Gruppe_16" data-name="&lt;Gruppe&gt;">
+        <path id="_Pfad_44" data-name="&lt;Pfad&gt;" class="cls-4" d="M8.5,0a8.47,8.47,0,0,0-8,5.65h16A8.47,8.47,0,0,0,8.5,0Z" transform="translate(-0.01 -0.01)"/>
+        <path id="_Pfad_45" data-name="&lt;Pfad&gt;" class="cls-5" d="M17,8.5a8.23,8.23,0,0,0-.49-2.82H.52a8.36,8.36,0,0,0,0,5.64h16A8.23,8.23,0,0,0,17,8.5Z" transform="translate(-0.01 -0.01)"/>
+        <path id="_Pfad_46" data-name="&lt;Pfad&gt;" class="cls-6" d="M.52,11.32a8.46,8.46,0,0,0,16,0Z" transform="translate(-0.01 -0.01)"/>
+      </g>
+    </g>
+  </g>
+
+</svg>
